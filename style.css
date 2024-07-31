@@ -148,3 +148,38 @@ a {
     margin-left: 330px;
     font-weight: 600;
 }
+
+.middle-three {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 80px;
+}
+
+.donation-container {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.donation-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.donation-header,
+.donation-description {
+    margin: 0;
+}
+
+.donation-header {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
