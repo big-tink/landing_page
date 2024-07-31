@@ -108,7 +108,9 @@ a {
     color: #F9FAF8;
 }
 
-.middle-one {
+.middle-one,
+.middle-two,
+.middle-three {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,4 +131,20 @@ a {
 .subtext-three,
 .subtext-four {
     width: 200px;
+}
+
+.quote,
+.quoted {
+    width: 500px;
+    margin: 0;
+}
+
+.middle-two {
+    padding: 50px;
+}
+
+.quoted {
+    width: 170px;
+    margin-left: 330px;
+    font-weight: 600;
 }
