@@ -97,13 +97,36 @@ button {
 
 .image-one, 
 .image-two, 
-.image-three, 
+.image-three,
 .image-four {
     height: auto;
-    width: 300px;
+    width: 200px;
 }
 
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+.middle-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.images-container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.subtext-one,
+.subtext-two,
+.subtext-three,
+.subtext-four {
+    width: 200px;
 }
