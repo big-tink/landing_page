@@ -4,7 +4,7 @@
 
 body {
     display:flex;
-    background-color: black;
+    background-color: rgb(19, 19, 19);
     width: 100vw;
     height: 100vh;
     flex-direction: column;
@@ -71,6 +71,7 @@ button {
     background-color: #E5E7EB;
     width: 120px;
     height: 40px;
+    border-radius: 10px;
 }
 
 .images-header{
@@ -93,6 +94,7 @@ button {
 .header-image {
     width: 350px;
     height: auto;
+    border-radius: 15px;
 }
 
 .image-one, 
@@ -101,6 +103,7 @@ button {
 .image-four {
     height: auto;
     width: 200px;
+    border-radius: 15px;
 }
 
 a {
@@ -164,6 +167,7 @@ a {
     padding: 40px 120px;
     flex-wrap: wrap;
     gap: 10px;
+    border-radius: 15px;
 }
 
 .donation-box {
@@ -188,4 +192,10 @@ a {
     align-items: center;
     margin: 0;
     height: 80px;
+}
+
+.donation-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 3px solid #F9FAF8;
 }
