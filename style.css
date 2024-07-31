@@ -199,3 +199,11 @@ a {
     color: #F9FAF8;
     border: 3px solid #F9FAF8;
 }
+
+.donation-button:active {
+    background-color: #265eb9;
+}
+
+.sign-up:active {
+    background-color: #c7c8c9;
+}
